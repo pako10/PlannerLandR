@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/plantilla1"
+    android:paddingTop="210dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp">
+
+
+
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Name"
+        android:hint="Name(s)"
+        android:textColorHint="@color/material_blue_grey_800"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffffff"
+        android:layout_weight="0.0009"
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/LastName"
+        android:hint="Apellido(s)"
+        android:textColorHint="@color/material_blue_grey_800"
+        android:background="#ffffffff"
+        android:layout_weight="0.0009"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Email"
+        android:hint="Correo electronico"
+        android:textColorHint="@color/material_blue_grey_800"
+        android:background="#ffffffff"
+        android:layout_weight="0.0009"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:inputType="textVisiblePassword"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rpassword"
+        android:hint="Contraseña"
+        android:textColorHint="@color/material_blue_grey_800"
+        android:background="#ffffff"
+        android:layout_weight="0.0009"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:inputType="textVisiblePassword"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ConfirmRpassword"
+        android:hint="Confirmar Contraseña"
+        android:textColorHint="@color/material_blue_grey_800"
+        android:background="#ffffff"
+        android:layout_weight="0.0009"
+        android:textColor="#000000"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/paises"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:entries="@array/country_arrays"
+            android:textColor="@color/material_blue_grey_800"/>
+
+        <Spinner
+            android:id="@+id/ciudades"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:entries="@array/mexico_city_arrays"
+            android:textColor="@color/material_blue_grey_800"/>
+    </LinearLayout>
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:entries="@array/gender_arrays"
+        android:textColor="@color/material_blue_grey_800"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/terminos_condiciones"
+            android:checked="false" />
+        <TextView
+            android:contentDescription="Terminos"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etTerminos"
+            android:layout_marginTop="2dp"
+            android:hint="Terminos y Condiciones"
+            android:textSize="20dp"
+            android:textColor="#2196F3"
+            android:background="#2196F3"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:text="Registrate"
+        android:id="@+id/registrate"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffa7123f"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+</LinearLayout>

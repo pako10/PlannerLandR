@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">PlannerLand</string>
+
+    <string name="tv_user_login">User:</string>
+    <string name="et_user_login">PID or EMail</string>
+    <string name="tv_user_password">Password:</string>
+    <string name="et_user_password">Password</string>
+    <string name="btn_user_value_ok">Connect</string>
+    <string name="btn_user_value_cancel">Cancel</string>
+    <string name="tv_user_result">Resultado consulta</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    
+    <string name="Bienvenida">Bienvenido a Planner Land</string>
+    <string name="Registrate">Registrate</string>
+    <string name="Iniciar">Iniciar Sesion</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_registro">RegistroActivity</string>
+
+    //REGISTRO STRINGS
+    <string name="genero">Genero</string>
+    <string-array name="country_a_ciudades_arrays">
+        <item>@array/mexico_city_arrays</item>
+    </string-array>
+    <string-array name="country_arrays">
+        <item>Porfavor seleccione su pais</item>
+        <item>Mexico</item>
+        <item>Argentina</item>
+        <item>Colombia</item>
+        <item>Panama</item>
+        <item>Brazil</item>
+    </string-array>
+
+    <string-array name="mexico_city_arrays">
+        <item>Abasolo</item>
+        <item>Guanajuato</item>
+        <item>Irapuato</item>
+    </string-array>
+    <string-array name="argentina_city_arrays">
+    <item>Valverde</item>
+    </string-array>
+    <string-array name="colombia_city_arrays">
+    <item>Barranquila</item>
+    </string-array>
+    <string-array name="panama_city_arrays">
+        <item>Barranqui</item>
+    </string-array>
+    <string-array name="brazil_city_arrays">
+        <item>Barra</item>
+    </string-array>
+    <string-array name="gender_arrays">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+    <string name="title_activity_calendario">CalendarioActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section4">Section 4</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+-->Registro string
+    <string name="nombre">Nombre(s)</string>
+    <string name="apellido">Apellido(s)</string>
+    <string name="email">Correo Electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="confirmPass">Confirma Contraseña</string>
+    <string name="terminos">Terminos y Condiciones</string>
+    <string name="title_activity_calendar">Calendar</string>
+</resources>
